@@ -91,6 +91,7 @@ body{
     padding: 10px;
     border-radius: 5px;
     background-color: #252525;
+    position: relative;
 }
 
 .card img{
@@ -110,8 +111,23 @@ body{
 }
 
 .play img{
-    background-color: #29ef29;
+    background-color: #00ff00;
     border-radius: 50%;
     width: 45px;
     padding: 2px;
+}
+.play{
+    position: absolute;
+     top: 156px;
+    right: 17px;
+    opacity: 0;
+    transition: all 1s ease-out;
+}
+
+.card:hover{
+     .play{
+           opacity: 1;
+    top: 148px;
+     }
+
 }
