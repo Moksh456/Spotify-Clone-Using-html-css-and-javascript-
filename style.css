@@ -108,3 +108,10 @@ body{
     flex-wrap: wrap;
     margin: 30px;
 }
+
+.play img{
+    background-color: #29ef29;
+    border-radius: 50%;
+    width: 45px;
+    padding: 2px;
+}
