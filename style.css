@@ -19,6 +19,7 @@ body{
 
 .right{
     width: 75vw;
+    margin: 16px 0;
 }
 
 .home ul li{
@@ -68,4 +69,42 @@ body{
 
 .footer a{
     color: grey;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(52 50 50);
+}
+
+.header > *{
+    padding: 20px;
+   
+}
+
+.soptify-playlist{
+    padding: 16px;
+}
+
+.card{
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #252525;
+}
+
+.card img{
+    width: 100%;
+    object-fit: contain;
+}
+
+.card > *{
+    padding-top: 3px;
+}
+
+.Card-container{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin: 30px;
 }
