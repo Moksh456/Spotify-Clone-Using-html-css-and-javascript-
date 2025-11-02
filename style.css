@@ -92,6 +92,7 @@ body{
     border-radius: 5px;
     background-color: #252525;
     position: relative;
+    cursor: pointer;
 }
 
 .card img{
@@ -118,7 +119,7 @@ body{
 }
 .play{
     position: absolute;
-     top: 156px;
+     top: 189px;
     right: 17px;
     opacity: 0;
     transition: all 1s ease-out;
@@ -126,8 +127,8 @@ body{
 
 .card:hover{
      .play{
-           opacity: 1;
-    top: 148px;
+        opacity: 1;
+        top: 159px;
      }
 
 }
